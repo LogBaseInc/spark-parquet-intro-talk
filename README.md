@@ -25,4 +25,4 @@ docker pull logbase/spark-anaconda
 export SPARK_INTRO_DIR=$(pwd)
 docker run -it -p 4040:4040 -p 8888:8888 -v $SPARK_INTRO_DIR:/spark-parquet-intro-talk spark-anaconda
 ```
-* Checkout iPython app in http://localhost:8888 or http://<linux-vm-ip>:8888 depending on how you run your docker service.
+* Checkout iPython app in http://localhost:8888 or http://linux-vm-ip:8888 depending on how you run your docker service.
