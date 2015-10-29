@@ -1,0 +1,4 @@
+*.log*
+*.json*
+.ipynb_checkpoints
+metastore_db
